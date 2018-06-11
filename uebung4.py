@@ -2,15 +2,13 @@
 import random
 
 zahlen = []
-
-for i in range(0, 10):
-    wurf = (random.randint(1,6))
+hallo = [".","..","...","....","....."]
+anzahlwuerfe = int(input("Wie oft soll simuliert werden?"))
+for i in range(0, anzahlwuerfe):
+    wurf = (random.randint(1,37))
     zahlen.append(wurf)
-    print(wurf, end = "...")
+    print(wurf, end = hallo[random.randint(0,4)])
 
-print()
-print ("Ergebnis: ")
-print(zahlen)
 
-for i in range(1,7):
+for i in range(1,37):
     print (i,"er : ", zahlen.count(i))
