@@ -7,4 +7,5 @@ Ubuntu-Installationsdaten:
 * 4 Prozessorkerne
 * mind. 4 GB Ram
 * 32 GB HDD
+* WIchtig! Auf Laufwerk D !
 
